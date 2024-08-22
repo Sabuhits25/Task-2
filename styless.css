@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: rgb(40, 40, 40);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.Celine a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.Celine a:hover {
+    color: white;
+}
+.Celine {
+    padding-left: 300px;
+    font-size: 25px;
+}
+.Services ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    padding-left: 200px;
+    padding-top: 10px;
+    text-decoration: none;
+    
+}
+.Services ul li a:hover{
+    color: aqua;
+}
+.Services ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.Services li {
+    margin-left: 30px; 
+    color: white; 
+}
+.italic {
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 48px;
+    font-style: italic; 
+    font-weight: bold; 
+    position: absolute;
+
+}
+.b1{
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 70px;
+    position: absolute;
+
+}
+.b2{
+    top: 65%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 65px;
+    position: absolute;
+}
+button {
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: rgb(83, 239, 231); 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer;
+    font-size: 20px; 
+}
+
+button:hover {
+    background-color: white; 
+    color: black; 
+    transition: 300ms;
+}
